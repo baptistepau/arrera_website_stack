@@ -1,0 +1,6 @@
+[submodule "site-web"]
+	path = site-web
+	url = https://github.com/Arrera-Software/site-web.git
+[submodule "librairy-website"]
+	path = librairy-website
+	url = https://github.com/Arrera-Software/librairy-website.git
