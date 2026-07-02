@@ -36,7 +36,6 @@ services:
     depends_on:
       - db
 
-  # 4. Deuxième Conteneur Web (Librairie)
   web-librairy:
     build: ./librairy-website 
     container_name: arrera_web_librairy
