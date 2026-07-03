@@ -42,12 +42,7 @@ services:
     restart: always
     ports:
       - "8082:80"
-    volumes:
-      - ./librairy-website:/var/www/html:Z
-    depends_on:
-      - db
 
 volumes:
   db_data:
   site-web:
-  librairy-website:
